@@ -1,0 +1,193 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat-Bold";
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #282828;
+    padding: 8px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.header__vector {
+    column-gap: 15px;
+    display: flex;
+}
+
+.header__link {
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.airpods__pro {
+    background: url(../img/background.png) no-repeat center/cover;
+    height: 700px;
+    align-items: center;
+
+}
+
+.airpods__center {
+    height: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.airpods__title {
+    font-family: "ProstoOne-Regular";
+    font-size: 100px;
+    line-height: 75px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.airpods__button {
+    padding: 8px 20px;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Montserrat-Medium";
+}
+
+.section {
+    background-color: rgb(19, 17, 17);
+
+}
+
+.section__block {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.section__text {
+    font-family: "Montserrat-Medium";
+    font-size: 22px;
+    line-height: 26px;
+    color: white;
+}
+
+.section__blockd {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.section__textq {
+    font-family: "Montserrat-Medium";
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.section__blocka {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 14px;
+
+}
+
+p {
+    color: #C4C4C4;
+}
+
+.section__texta {
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    width: 333px;
+}
+
+.cards {
+    padding-top: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.card {
+    background-color: white;
+    padding: 15px 50px;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.cards__title {
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.cards__title {
+    padding: 10px 0 20px 0;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "ProstoOne-Regular";
+    color: black;
+}
+
+.cards__img {
+    align-items: center;
+}
+.cards__button{
+    color: white;
+    background-color: black;
+    padding:7px 57px ;
+    font-size: 16px;
+    line-height: 19px;
+}
+.button__header{
+    background-color: #282828;
+}
+.button__header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 81px ;
+}
+.button__header-list{
+    display: flex;
+    column-gap: 30px;
+}
+.visala{
+    display: flex;
+    column-gap: 30px;
+}
+.ul__li-list{
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
